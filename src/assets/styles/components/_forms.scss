@@ -5,7 +5,7 @@ input:-webkit-autofill:active{
     -webkit-box-shadow: 0 0 0 30px #2A3038 inset !important;
 }
 input:-webkit-autofill{
-  -webkit-text-fill-color: #8588A3 !important;
+  -webkit-text-fill-color: #ffffff !important;
 }
 .form-group {
   margin-bottom: 1rem;
@@ -40,7 +40,8 @@ input:-webkit-autofill{
   border-radius: 2px;
   color: #ffffff;
   &:focus {
-    border: 1px solid rgba(71, 164, 71, 0.5);
+    // border: 1px solid rgba(71, 164, 71, 0.5);
+    color: #ffffff !important;
     background-color: $input-bg;
   }
   &.form-control-lg {

@@ -42,7 +42,7 @@ class Navbar extends Component {
                 >
                   <div className="preview-thumbnail">
                     <div className="preview-icon bg-dark rounded-circle">
-                      <i className="mdi mdi-file-outline text-primary"></i>
+                      <i className="mdi mdi-drawing text-primary"></i>
                     </div>
                   </div>
                   <div className="preview-item-content">
@@ -56,7 +56,7 @@ class Navbar extends Component {
                 >
                   <div className="preview-thumbnail">
                     <div className="preview-icon bg-dark rounded-circle">
-                      <i className="mdi mdi-web text-info"></i>
+                      <i className="mdi mdi-video text-info"></i>
                     </div>
                   </div>
                   <div className="preview-item-content">
@@ -70,7 +70,7 @@ class Navbar extends Component {
                 >
                   <div className="preview-thumbnail">
                     <div className="preview-icon bg-dark rounded-circle">
-                      <i className="mdi mdi-layers text-danger"></i>
+                      <i className="mdi mdi-web text-danger"></i>
                     </div>
                   </div>
                   <div className="preview-item-content">

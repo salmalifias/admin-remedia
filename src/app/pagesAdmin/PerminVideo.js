@@ -59,7 +59,7 @@ export class PerminVideo extends Component {
                     />
                   </Form.Group>
                   <Form.Group>
-                    <label>Bahan Foto (Untuk Video)</label>
+                    <label>Bahan (Untuk Video)</label>
                     <div className="custom-file">
                       <Form.Control
                         type="file"

@@ -31,7 +31,7 @@ export class Dashboard extends Component {
                     </Form.Group>
                     <Form.Group className="form-sort">
                       <select className="form-control" id="sortby">
-                        <option style={{color:"#c3c5cf"}}>Semua Permintaan</option>
+                        <option style={{color:"#c3c5cf"}}>Jenis Permintaan</option>
                         <option style={{color:"#c3c5cf"}}>Videografi</option>
                         <option style={{color:"#c3c5cf"}}>Desain</option>
                         <option style={{color:"#c3c5cf"}}>Publikasi</option>

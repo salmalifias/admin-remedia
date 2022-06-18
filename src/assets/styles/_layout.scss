@@ -332,7 +332,7 @@
       }
     }
     .page-body-wrapper {
-      width: calc(100% - #{$sidebar-width-icon});
+      // width: calc(100% - #{$sidebar-width-icon});
       transition: all $action-transition-duration $action-transition-timing-function;
       -webkit-transition: all $action-transition-duration $action-transition-timing-function;
       -moz-transition: all $action-transition-duration $action-transition-timing-function;

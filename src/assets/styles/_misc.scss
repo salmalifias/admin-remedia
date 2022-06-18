@@ -20,7 +20,7 @@ body {
   @include flex-direction(row);
   padding-left: 0;
   padding-right: 0;
-  width: calc(100% - #{$sidebar-width-lg});
+  // width: calc(100% - #{$sidebar-width-lg});
   transition: width $action-transition-duration $action-transition-timing-function, margin $action-transition-duration $action-transition-timing-function;
 
   &.full-page-wrapper {
@@ -45,6 +45,7 @@ body {
     width: 100%;
   }
 }
+
 
 .main-panel {
   transition: width $action-transition-duration $action-transition-timing-function, margin $action-transition-duration $action-transition-timing-function;

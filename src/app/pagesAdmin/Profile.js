@@ -187,14 +187,13 @@ export class Profile extends Component {
               <div className="card-body">
                 <div className="d-flex flex-row justify-content-between">
                   <h4 className="card-title mb-1">Data Bidang</h4>
-                  <p
-                    onClick={this.showBidang}
-                    type="button"
-                    className="text-muted mb-1 underline"
-                    style={{textDecorationLine: 'underline'}}
-                  >
-                    Tambah Bidang
-                  </p>
+                    <button
+                      onClick={this.showBidang}
+                      type="button"
+                      className="btn btn-secondary"
+                    >
+                      Tambah Bidang
+                    </button>
                 </div>
                 <div className="row">
                   <div className="col-12">
@@ -389,14 +388,13 @@ export class Profile extends Component {
               <div className="card-body">
                 <div className="d-flex flex-row justify-content-between">
                   <h4 className="card-title mb-1">Data Departemen dan Biro</h4>
-                  <p
-                    onClick={this.showDeptBir}
-                    type="button"
-                    className="text-muted mb-1"
-                    style={{textDecorationLine: 'underline'}}
-                  >
-                    Tambah Dept/Biro
-                  </p>
+                    <button
+                      onClick={this.showDeptBir}
+                      type="button"
+                      className="btn btn-secondary"
+                    >
+                      Tambah Dept/Biro
+                    </button>
                 </div>
                 <div className="table-responsive">
                   <table className="table">

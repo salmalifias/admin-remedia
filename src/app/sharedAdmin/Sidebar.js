@@ -18,7 +18,7 @@ class Sidebar extends Component {
         const login = Swal.getPopup().querySelector('#login').value
         const password = Swal.getPopup().querySelector('#password').value
         if (!login || !password) {
-          Swal.showValidationMessage(`Please enter login and password`)
+          Swal.showValidationMessage(`Isi data terlebih dahulu`)
         }
       }
     }) 

@@ -25,7 +25,6 @@ export class Profile extends Component {
     Swal.fire({
       title: "Data Bidang",
       html: `<input type="text" id="bidang" class="swal2-input" placeholder="Nama Bidang">
-      <input type="text" id="departbir" class="swal2-input" placeholder="Departemen dan Biro">
       <input type="text" id="login" class="swal2-input" placeholder="Username">
       <input type="password" id="password" class="swal2-input" placeholder="Password">`,
       confirmButtonText: "Tambah Bidang",
@@ -35,7 +34,7 @@ export class Profile extends Component {
         const login = Swal.getPopup().querySelector("#login").value;
         const password = Swal.getPopup().querySelector("#password").value;
         if (!login || !password) {
-          Swal.showValidationMessage(`Please enter login and password`);
+          Swal.showValidationMessage(`Isi data terlebih dahulu`);
         }
         return { Login: login, Password: password };
       },
@@ -45,16 +44,17 @@ export class Profile extends Component {
     Swal.fire({
       title: "Data Departemen/Biro",
       html: `<input type="text" id="deptbir" class="swal2-input" placeholder="Nama Dept/Biro">
+      <input type="text" id="bid" class="swal2-input" placeholder="Asal Bidang">
       <input type="text" id="login" class="swal2-input" placeholder="Username">
       <input type="password" id="password" class="swal2-input" placeholder="Password">`,
-      confirmButtonText: "Tambah Departemen",
+      confirmButtonText: "Tambah Dept/Biro",
       focusConfirm: false,
       background: '#191c20',
       preConfirm: () => {
         const login = Swal.getPopup().querySelector("#login").value;
         const password = Swal.getPopup().querySelector("#password").value;
         if (!login || !password) {
-          Swal.showValidationMessage(`Please enter login and password`);
+          Swal.showValidationMessage(`Isi data terlebih dahulu`);
         }
         return { Login: login, Password: password };
       },
@@ -72,7 +72,7 @@ export class Profile extends Component {
         const login = Swal.getPopup().querySelector("#login").value;
         const password = Swal.getPopup().querySelector("#password").value;
         if (!login || !password) {
-          Swal.showValidationMessage(`Please enter login and password`);
+          Swal.showValidationMessage(`Isi data terlebih dahulu`);
         }
       },
     });

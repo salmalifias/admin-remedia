@@ -338,7 +338,7 @@ export class Profile extends Component {
                     <Form.Control
                       type="text"
                       id="exampleInputUsername1"
-                      placeholder="Username"
+                      placeholder="Nama Departemen"
                     />
                   </Form.Group>
                   <Form.Group>
@@ -347,7 +347,7 @@ export class Profile extends Component {
                       type="email"
                       className="form-control"
                       id="exampleInputEmail1"
-                      placeholder="Email"
+                      placeholder="Nama Bidang"
                     />
                   </Form.Group>
                   <Form.Group>
@@ -356,7 +356,7 @@ export class Profile extends Component {
                       type="password"
                       className="form-control"
                       id="exampleInputPassword1"
-                      placeholder="Password"
+                      placeholder="Username"
                     />
                   </Form.Group>
                   <Form.Group>
